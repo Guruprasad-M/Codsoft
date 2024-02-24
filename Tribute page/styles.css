@@ -1,0 +1,96 @@
+/* Resetting default margin and padding */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting body background color and font family */
+body {
+  background: linear-gradient(#fdcb13, #f4e802);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling the title */
+#title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 20px;
+  color: #333; /* dark gray */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Setting width and display type of images */
+img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the image caption */
+#caption {
+  font-size: 16px;
+  font-family: Georgia, serif;
+  color: #666; /* medium gray */
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* Styling the main container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #c71111;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the header */
+header h1 {
+  font-size: 28px;
+  color: #27fd01; /* dark gray */
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* Styling the footer */
+footer p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+/* Styling links */
+footer a {
+  color: #007bff; /* blue */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Increasing line spacing */
+p, li {
+  line-height: 1.6;
+}
+
+/* Adding colors to buttons */
+.btns1, .btns2, .btns3 {
+  border: 3px solid white;
+  width: fit-content;
+  background-color: #953e12; /* brown */
+  color: white;
+  cursor: pointer;
+  list-style-type: none;
+  margin-left: 2%;
+  padding: 1% 2.5%;
+  transform: skew(5deg);
+}
